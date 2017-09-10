@@ -1,0 +1,2 @@
+In this project, we designed a web application that allows users to order concert ticket online. The aim of the project is to provide a web interface for people who want to get the information about concerts that are currently displaying as well as information about upcoming concerts. The website makes it easy for people to view various concerts in the catalogue, choose seat and order the tickets for their choices.
+

@@ -1,0 +1,14 @@
+如何传值给success.html页面concert id并在关闭后刷新父页面
+there is a typo of full-width quote sign in table Users
+读取的seatid要确定对应的订单是否有支付，否则不作为已有座位
+
+根据登录session信息确定用户id，对于自己的id显示为特殊颜色(已解决）)
+读取json对于第二个concert有问题(已解决)
+用户登录完就应分配一个orderid，写入Session状态（但不写入orderinfo表），AddToCart时应检验的是Session状态，而不是用户表（已解决）
+登录时分配的orderid应是php global 基础上自动增长的数值（已解决）
+网站启动时得到的初始orderid是读取数据库后获取的max orderid + 1， 初始设置到php global variable中 （放弃）
+orderinfo表添加了一个整数型orderint字段，方便计算max orderid
+user表中userid和username关系有点混淆
+AddToCart时不需写入orderinfo表，只需写suborder表，如果最后没有checkout，那么退出登录时检验没有orderid的suborder全部删除，或用户重新登录时检查（放弃）
+登录状态可能有些问题，首页显示login之后Session仍有值。(已处理)
+

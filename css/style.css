@@ -1,0 +1,66 @@
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+	.navself{
+	background-color:#EBDDE2;
+	border:none;
+	font-weight:bold;
+	margin-bottom:20px;
+	}
+	.navself:link
+	{
+		color:black;
+	}
+	.seatdot
+	{
+	 width:10px;height:10px;position:absolute; z-index:1;
+	 background:silver;
+	 cursor: auto;
+	}
+	.seatdot:hover
+	{
+	 background-color:green;
+	 cursor: pointer;
+	}
+	
+	.seatinfo
+	{
+		width:150px;height:200px;position:absolute; z-index:1;
+		/* padding:10px; */
+		display:none;
+		/* background:#EBDDE2; */
+		top:45px;
+		right:25px;
+	}
+	#AddConcert,#logout,#loadCart,#loadHistory
+	{
+		display:none; 
+	}
+	.btnEdit
+	{
+		/* display:none; */
+		float:right;margin-top:-7px;
+	}
+	.navbar-brand
+	{
+		display:none;
+	}
+	.col-sm-4 img
+	{
+		height:170px;
+	}
+	.col-sm-4 .panel-heading
+	{
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis; 
+		/* word-break:break-all; */
+		height:41px;
+	}
+	
+

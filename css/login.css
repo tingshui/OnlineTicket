@@ -1,0 +1,58 @@
+.ok, .info, .error {
+	padding: 0px 2px;
+        font-style: italic;  
+        margin-left: 2px;
+}
+
+.ok {
+	background: #cfc;
+	border: none;
+}
+
+.info {
+	background: #ffc;
+	border: none;
+}
+
+.error {
+	background: #fcc;
+	border: none;
+}
+
+#error_mesg, #login_fail, #connection_error{
+    color: red;
+    font-style: italic;
+}
+
+body{
+    background-color:#EBDDE2; 
+}
+
+.container{
+    background-color: white;
+    padding: 0;
+}     
+
+a {
+    text-decoration: none;
+    color: black;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+}
+
+.nav{
+    margin-bottom: 50px;
+    border-radius: 0;
+    background-color:#EBDDE2;
+    border:none;
+    font-weight:bold;
+}
+
+form{
+    padding: 2em;
+    height: 600px;
+}
+
+#home{
+    float: right;
+}
